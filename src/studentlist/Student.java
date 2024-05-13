@@ -15,7 +15,7 @@ public class Student
    private int sid;
    //comment
    private int grades;
-
+private float fee;
     /**
      * @return the name
      */
