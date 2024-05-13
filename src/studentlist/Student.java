@@ -12,6 +12,7 @@ public class Student
 {
     private String name; // encapsulation 
    private  int age;
+   private int sid;
 
     /**
      * @return the name
@@ -39,5 +40,19 @@ public class Student
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @return the sid
+     */
+    public int getSid() {
+        return sid;
+    }
+
+    /**
+     * @param sid the sid to set
+     */
+    public void setSid(int sid) {
+        this.sid = sid;
     }
 }
