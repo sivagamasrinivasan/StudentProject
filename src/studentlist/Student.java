@@ -14,6 +14,7 @@ public class Student
    private  int age;
    private int sid;
    //comment
+   private int grades;
 
     /**
      * @return the name
